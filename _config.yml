@@ -21,4 +21,4 @@ maruku:
   png_url:    /images/latex
 
 rdiscount:
-  extensions: []xs
+  extensions: []
