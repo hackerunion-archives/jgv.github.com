@@ -1,0 +1,12 @@
+---
+layout: default
+title: This is the Second Post
+---
+
+h3. This is the second post of the blog
+
+p. I'm going to include some markup here just to test it out.
+
+# Including a list
+# second item
+

@@ -1,11 +1,24 @@
 ---
 layout: default
-title: Jonathan Vingiano's Blog
+title: One Post At A Time
 ---
 
 
-{% for post in site.posts limit:5 %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.content }}
-<em>Posted on {{ post.date | date_to_long_string }}.</em>
+{% for post in site.posts limit:1 %}
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.content }}
+  <em>Posted on {{ post.date | date_to_long_string }}.</em>
+  <br>
+  {% if post.previous %}
+  <span class="page-nav-item">
+    <a rel="prev" href="{{ post.previous.url }}/" title="View {{ post.previous.title }}" >&larr; view previous post</a>
+  </span>
+  {% endif %}
+  {% if post.next %}
+  <span class="page-nav-item">
+    <a rel="next" href="{{ post.next.url }}/" 
+       title="View {{ post.next.title }}"
+       >view next post &rarr;</a>
+  </span>
+  {% endif %}
 {% endfor %}
