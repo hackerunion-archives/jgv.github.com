@@ -11,14 +11,14 @@ title: One Post At A Time
   <br>
   {% if post.previous %}
   <span class="page-nav-item">
-    <a rel="prev" href="{{ post.previous.url }}/" title="View {{ post.previous.title }}" >&larr; view previous post</a>
+    <a rel="prev" href="{{ post.previous.url }}/" title="View {{ post.previous.title }}" >&#8592; view previous post</a>
   </span>
   {% endif %}
   {% if post.next %}
   <span class="page-nav-item">
     <a rel="next" href="{{ post.next.url }}/" 
        title="View {{ post.next.title }}"
-       >view next post &rarr;</a>
+       >view next post &#8594;</a>
   </span>
   {% endif %}
 {% endfor %}
