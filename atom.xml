@@ -8,7 +8,7 @@ layout: nil
  <link href="http://blog.jonathanvingiano.com/atom.xml" rel="self"/>
  <link href="http://blog.jonathanvingiano.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://blog.jonathanvingiano.com</id>
+ <id>http://blog.jonathanvingiano.com/</id>
  <author>
    <name>Jonathan Vingiano</name>
    <email>jgv@jonathanvingiano.com</email>
