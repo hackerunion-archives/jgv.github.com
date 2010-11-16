@@ -3,21 +3,57 @@
   <head>
     <title>{{ page.title }}</title>
     <link href="stylesheets/main.css" type="text/css" rel="stylesheet" media="screen" />
+    
+   <script type="text/javascript">
+<!--
+
+function updateClock ( )
+{
+  var currentTime = new Date ( );
+
+  var currentHours = currentTime.getHours ( );
+  var currentMinutes = currentTime.getMinutes ( );
+  var currentSeconds = currentTime.getSeconds ( );
+
+  // Pad the minutes and seconds with leading zeros, if required
+  currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
+  currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;
+
+  // Choose either "AM" or "PM" as appropriate
+  var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+
+  // Convert the hours component to 12-hour format if needed
+  currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+
+  // Convert an hours component of "0" to "12"
+  currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+
+  // Compose the string for display
+  var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+
+  // Update the time display
+  document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+}
+
+// -->
+</script>
   </head>
   
-  <body>
+  <body onload="updateClock(); setInterval('updateClock()', 1000 )">
+
     
     <div id="meta-head">
-      <p>Lorem ipsum dummy text filler filler filler here are some more words.</p>
+      <span id="clock">&nbsp;</span><p>Lorem ipsum dummy text filler filler filler here are some more words.</p>
     </div>
     <div id="wrapper" class="clearfix">
       <div id="main">
-	<h1 class="upper">{{ page.title }}</h1>
+
 	
 	{{ content }}
       
       </div>
       <div id="sidebar">
+	<h1 class="upper">{{ page.title }}</h1>
 	<ul class="simple-list left">
 	  <p class="ital">Some Friends</p>
 	  <li><a href="http://johnmichaelboling.com">John Michael Boling</a></li>
@@ -34,7 +70,9 @@
 	  <p class="ital">Other Internet</p>
 	<li><a href="http://hyperpublic.com">Hyper Public</a></li>
 	<li><a href="http://oak.fm">Oak fm</a></li>
-	<li><a href="http://twitter.com/jgv">My Twitter</a></li>
+	<li><a href="http://twitter.com/jgv">Twitter</a></li>
+	<li><a href="http://del.icio.us/jonathanvingiano">Del.icio.us</a></li>
+	<li><a href="http://github.com/jgv">Github</a></li>
 	</ul>
       </div>
     </div>

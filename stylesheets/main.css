@@ -212,7 +212,7 @@ All other styles can be overridden--or ignored!--in Child Theme stylesheets
 body { font-family: Georgia, Times, "Times New Roman", serif; font-size:18px; color:#333}
 a { font-style:italic; }
 #meta-head { background-color: #202020; height:25px; color: white; font-size: 12px; padding: 4px 44px 0px;border-bottom: #aaa;}
-p.meta-head { float: left; display: inline; }
+#meta-head p { display: inline; }
 
 h2 { text-transform: lowercase; font-style: italic; font-size: 30px;}
 h3 { font-size: 24px }
@@ -226,7 +226,9 @@ h3 { font-size: 24px }
 #sidebar a:hover { color: gray }
 #main a:hover {background: #333; color: #fff; }
 
-#sidebar { width: 310px;float:right; margin-top:150px; border-top:thin solid black;}
+#sidebar { width: 310px;float:right; margin-top:108px; }
+
+#sidebar h1 { border-bottom:thin solid black; padding: 0 0 10px 4px }
 
 #sidebar ul.simple-list { list-style-type:none; font-size:14px; padding-left:5px; margin-left:0px; width:150px; margin-top:10px }
 
@@ -241,6 +243,9 @@ h3 { font-size: 24px }
 #meta-options ul li { list-style: none; display: inline; cursor: pointer; background-color: #202020; padding: 5px 10px 5px 10px; }
 #meta-options ul li a { display:inline;color: white; text-decoration: none; }
 #meta-options ul li a:hover { text-decoration: none; }
+
+
+#clock { display:inline-block; }
 
 
 /* SOME CLASSES */
