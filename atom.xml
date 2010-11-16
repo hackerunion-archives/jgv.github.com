@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Jonathan Vingiano</title>
- <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
- <link href="http://tom.preston-werner.com/"/>
+ <link href="http://blog.jonathanvingiano.com/atom.xml" rel="self"/>
+ <link href="http://blog.jonathanvingiano.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://blog.jonathanvingiano.com</id>
  <author>
