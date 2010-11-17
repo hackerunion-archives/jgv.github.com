@@ -3,4 +3,6 @@ layout: post
 title: First Post
 ---
 
-This will be the best blog ever.
+h2.{{post.title}}
+
+p.This will be the best blog ever.

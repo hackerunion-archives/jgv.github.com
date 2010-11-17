@@ -12,6 +12,7 @@ lsi:         false
 pygments:    false
 markdown:    maruku
 permalink:   date
+paginate:    10
 
 maruku:
   use_tex:    false

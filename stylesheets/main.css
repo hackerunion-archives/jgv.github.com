@@ -7,10 +7,20 @@ body {
 a {
   font-style: italic; }
 
+p.date-slug {
+  font-style: italic;
+  margin: 10px 0 20px; }
+
 h2 {
   text-transform: lowercase;
   font-style: italic;
   font-size: 30px; }
+
+h2.post-title {
+  clear: left;
+  float: left;
+  padding: 4px;
+  margin: 0 0 25px; }
 
 h3 {
   font-size: 24px; }
@@ -18,7 +28,8 @@ h3 {
     background: #ffffaa; }
 
 #wrapper {
-  width: 1080px; }
+  width: 1080px;
+  padding-top: 100px; }
 
 #meta-head {
   background: #202020;
@@ -26,12 +37,14 @@ h3 {
   color: white;
   font-size: 12px;
   padding: 4px 44px 0px;
-  border-bottom: #aaa; }
+  border-bottom: #aaa;
+  cursor: pointer!important; }
   #meta-head p {
-    display: inline; }
+    display: inline;
+    cursor: pointer!important; }
 
 #main {
-  padding: 50px 44px;
+  padding: 0 44px 50px;
   width: 670px;
   line-height: 26px;
   float: left; }
@@ -44,13 +57,30 @@ h3 {
     background: #333;
     color: #fff; }
 
+#main-post {
+  padding: 0 44px 50px;
+  width: 670px;
+  line-height: 26px;
+  float: left;
+  margin-top: -8px; }
+  #main-post a, #main-post a:visited {
+    background: #ffffaa;
+    padding: 2px;
+    color: #333;
+    text-decoration: none; }
+  #main-post a:hover {
+    background: #333;
+    color: #fff; }
+
+#post-content {
+  margin: -8px 0 20px; }
+
 #sidebar {
   width: 310px;
-  float: right;
-  margin-top: 108px; }
+  float: right; }
   #sidebar h1 {
     border-bottom: thin solid black;
-    padding: 0 0 10px 4px; }
+    padding: 3px 0 10px 4px; }
   #sidebar a, #sidebar a:visited {
     color: #333;
     text-decoration: none; }
@@ -75,14 +105,13 @@ h3 {
   background: whiteSmoke; }
 
 #clock {
-  display: inline-block; }
+  display: inline-block;
+  min-width: 75px;
+  cursor: pointer!important; }
 
 /* SOME CLASSES */
 .upper {
   text-transform: uppercase; }
-
-.post-title {
-  margin: 50px 0 25px; }
 
 .ital {
   font-style: italic; }
@@ -92,3 +121,6 @@ h3 {
 
 .right {
   float: right; }
+
+.hightlight {
+  background: #ffffaa; }

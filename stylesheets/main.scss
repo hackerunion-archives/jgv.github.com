@@ -14,6 +14,13 @@ a {
   font-style:italic; 
 }
 
+p.date-slug {
+  font: {
+    style:italic;
+  }
+  margin: 10px 0 20px;
+}
+
 h2 { 
   text-transform: lowercase; 
   font: { 
@@ -22,15 +29,23 @@ h2 {
   }
 }
 
+h2.post-title {
+  clear: left;
+  float: left;
+  padding: 4px;
+  margin: 0 0 25px; 
+}
+
 h3 { 
   font-size: 24px;
   .title { 
-    background:$highlight 
+    background:$highlight; 
   }
 }
 
 #wrapper { 
-  width: 1080px 
+  width: 1080px; 
+  padding-top:100px;
 }
 
 #meta-head { 
@@ -40,13 +55,15 @@ h3 {
   font-size: 12px; 
   padding: 4px 44px 0px;
   border-bottom: #aaa;
+  cursor: pointer!important;
   p { 
     display: inline; 
+    cursor: pointer!important;
   }
 }
 
 #main { 
-  padding: 50px 44px;
+  padding: 0 44px 50px;
   width:670px;
   line-height: 26px; 
   float:left;
@@ -62,13 +79,35 @@ h3 {
   }
 }
 
+
+#main-post { 
+  padding: 0 44px 50px;
+  width:670px;
+  line-height: 26px; 
+  float:left;
+  margin-top: -8px;
+  a, a:visited { 
+    background: $highlight; 
+    padding:2px; 
+    color: #333; 
+    text-decoration: none; 
+  }
+  a:hover {
+    background: #333; 
+    color: #fff; 
+  }
+}
+
+#post-content {
+  margin: -8px 0 20px;
+}
+
 #sidebar { 
   width: 310px;
   float:right; 
-  margin-top:108px; 
   h1 { 
     border-bottom:thin solid black; 
-    padding: 0 0 10px 4px 
+    padding: 3px 0 10px 4px 
   }
   a, a:visited { 
     color: #333; 
@@ -99,13 +138,15 @@ h3 {
     background: transparent;
   }
   a:hover { 
-    background: whiteSmoke 
+    background: whiteSmoke; 
   }
 }
 
 
 #clock { 
   display:inline-block; 
+  min-width: 75px;
+  cursor: pointer!important;
 }
 
 
@@ -113,10 +154,6 @@ h3 {
 
 .upper { 
   text-transform: uppercase; 
-}
-
-.post-title { 
-  margin: 50px 0 25px; 
 }
 
 .ital { 
@@ -129,4 +166,8 @@ h3 {
 
 .right { 
   float: right; 
+}
+
+.hightlight {
+  background: $highlight;
 }
