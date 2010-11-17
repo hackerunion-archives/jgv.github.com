@@ -18,7 +18,8 @@ p.date-slug {
   font: {
     style:italic;
   }
-  margin: 10px 0 20px;
+  margin: 5px 0 20px;
+  clear: both;
 }
 
 h2 { 
@@ -33,7 +34,7 @@ h2.post-title {
   clear: left;
   float: left;
   padding: 4px;
-  margin: 0 0 25px; 
+  margin: 0 0 10px; 
 }
 
 h3 { 
@@ -78,7 +79,6 @@ h3 {
     color: #fff; 
   }
 }
-
 
 #main-post { 
   padding: 0 44px 50px;
@@ -130,7 +130,6 @@ h3 {
   }
 }
 
-
 #contact {
   a, a:visited { 
     color: #ccc; 
@@ -142,13 +141,11 @@ h3 {
   }
 }
 
-
 #clock { 
   display:inline-block; 
   min-width: 75px;
   cursor: pointer!important;
 }
-
 
 /* SOME CLASSES */
 
