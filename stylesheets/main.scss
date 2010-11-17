@@ -25,7 +25,7 @@ h2 {
 h3 { 
   font-size: 24px;
   .title { 
-    background-color:$highlight 
+    background:$highlight 
   }
 }
 
@@ -34,7 +34,7 @@ h3 {
 }
 
 #meta-head { 
-  background-color: #202020; 
+  background: #202020; 
   height:25px; 
   color: white; 
   font-size: 12px; 
@@ -49,15 +49,15 @@ h3 {
   padding: 50px 44px;
   width:670px;
   line-height: 26px; 
-  float:left
+  float:left;
   a, a:visited { 
-    background-color: $highlight; 
+    background: $highlight; 
     padding:2px; 
     color: #333; 
     text-decoration: none; 
   }
   a:hover {
-    background-color: #333; 
+    background: #333; 
     color: #fff; 
   }
 }
@@ -77,30 +77,29 @@ h3 {
   a:hover { 
     color: gray 
   }
-  ul {
-    .simple-list { 
-      list-style-type:none; 
-      font-size:14px; 
-      padding-left:5px; 
-      margin-left:0px; 
-      width:150px; 
-      margin-top:10px 
-    }
-    .simple-list.social {
-      padding-left:20px; 
-      width:110px 
-    }
+  ul.simple-list { 
+    list-style-type:none; 
+    font-size:14px; 
+    padding-left:5px; 
+    margin-left:0px; 
+    width:150px; 
+    margin-top:10px 
+  }
+  ul.simple-list.social {
+    padding-left:20px; 
+    width:110px 
   }
 }
+
 
 #contact {
   a, a:visited { 
     color: #ccc; 
     font-style: italic; 
-    background-color: transparent;
+    background: transparent;
   }
   a:hover { 
-    background-color: whiteSmoke 
+    background: whiteSmoke 
   }
 }
 

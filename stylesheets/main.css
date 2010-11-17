@@ -15,13 +15,13 @@ h2 {
 h3 {
   font-size: 24px; }
   h3 .title {
-    background-color: #ffffaa; }
+    background: #ffffaa; }
 
 #wrapper {
   width: 1080px; }
 
 #meta-head {
-  background-color: #202020;
+  background: #202020;
   height: 25px;
   color: white;
   font-size: 12px;
@@ -33,15 +33,15 @@ h3 {
 #main {
   padding: 50px 44px;
   width: 670px;
-  line-height: 26px; }
-  #main float:left
-  a, #main a:visited {
-    background-color: #ffffaa;
+  line-height: 26px;
+  float: left; }
+  #main a, #main a:visited {
+    background: #ffffaa;
     padding: 2px;
     color: #333;
     text-decoration: none; }
   #main a:hover {
-    background-color: #333;
+    background: #333;
     color: #fff; }
 
 #sidebar {
@@ -56,23 +56,23 @@ h3 {
     text-decoration: none; }
   #sidebar a:hover {
     color: gray; }
-  #sidebar ul .simple-list {
+  #sidebar ul.simple-list {
     list-style-type: none;
     font-size: 14px;
     padding-left: 5px;
     margin-left: 0px;
     width: 150px;
     margin-top: 10px; }
-  #sidebar ul .simple-list.social {
+  #sidebar ul.simple-list.social {
     padding-left: 20px;
     width: 110px; }
 
 #contact a, #contact a:visited {
   color: #ccc;
   font-style: italic;
-  background-color: transparent; }
+  background: transparent; }
 #contact a:hover {
-  background-color: whiteSmoke; }
+  background: whiteSmoke; }
 
 #clock {
   display: inline-block; }
