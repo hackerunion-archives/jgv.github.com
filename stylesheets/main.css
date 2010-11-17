@@ -1,257 +1,94 @@
-/* -------------------------------------------------------------- 
-  
-   Reset default browser CSS.
-   
-   Based on work by Eric Meyer:
-   http://meyerweb.com/eric/tools/css/reset/index.html
-   
--------------------------------------------------------------- */
-
-/* v1.0 | 20080212 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
+@import url(reset.css);
 body {
-    background:#fff;
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: #333; }
 
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
+a {
+  font-style: italic; }
 
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
+h2 {
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 30px; }
 
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+h3 {
+  font-size: 24px; }
+  h3 .title {
+    background-color: #ffffaa; }
 
-a img { border: none; }
+#wrapper {
+  width: 1080px; }
 
+#meta-head {
+  background-color: #202020;
+  height: 25px;
+  color: white;
+  font-size: 12px;
+  padding: 4px 44px 0px;
+  border-bottom: #aaa; }
+  #meta-head p {
+    display: inline; }
 
-/* -------------------------------------------------------------- 
-   
-   Set default typography based on Blueprint
-   
-   http://code.google.com/p/blueprintcss/
-     
--------------------------------------------------------------- */   
+#main {
+  padding: 50px 44px;
+  width: 670px;
+  line-height: 26px; }
+  #main float:left
+  a, #main a:visited {
+    background-color: #ffffaa;
+    padding: 2px;
+    color: #333;
+    text-decoration: none; }
+  #main a:hover {
+    background-color: #333;
+    color: #fff; }
 
-body, input, textarea {
-    color:#000;    
-    font: 12px Arial,sans-serif;
-    line-height:18px;
-}
+#sidebar {
+  width: 310px;
+  float: right;
+  margin-top: 108px; }
+  #sidebar h1 {
+    border-bottom: thin solid black;
+    padding: 0 0 10px 4px; }
+  #sidebar a, #sidebar a:visited {
+    color: #333;
+    text-decoration: none; }
+  #sidebar a:hover {
+    color: gray; }
+  #sidebar ul .simple-list {
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-left: 0px;
+    width: 150px;
+    margin-top: 10px; }
+  #sidebar ul .simple-list.social {
+    padding-left: 20px;
+    width: 110px; }
 
-/* Headings
--------------------------------------------------------------- */
+#contact a, #contact a:visited {
+  color: #ccc;
+  font-style: italic;
+  background-color: transparent; }
+#contact a:hover {
+  background-color: whiteSmoke; }
 
-h1,h2,h3,h4,h5,h6 { 
-	font-weight:normal;
-	clear:both;
-}
-
-/* Text elements
--------------------------------------------------------------- */
-
-p {
-    margin-bottom:18px;
-}
-ul {
-	margin: 0 0 18px 2.5em;
-}
-ol {
-	margin: 0 0 18px 2.5em;
-}
-ul {
-	list-style:disc;
-}
-ol {
-	list-style-type: decimal;
-}
-ol ol {
-	list-style:upper-alpha;
-}
-ol ol ol {
-	list-style:lower-roman;
-}
-ol ol ol ol {
-	list-style:lower-alpha;
-}
-ul ul, ol ol, ul ol, ol ul {
-	margin-bottom:0;
-}
-dl	{
-    margin:0 1.5em;
-}
-dt {
-    font-weight:bold;
-}
-dd {
-	margin-bottom:18px;
-}
-strong {
-	font-weight: bold;
-}
-cite, em, i {
-	font-style: italic;
-}
-blockquote {
-	margin: 0 3em;
-}
-blockquote em, blockquote i, blockquote cite {
-	font-style:normal;
-}
-pre {
-	font:11px Monaco, monospace;
-	line-height:18px;
-	margin-bottom:18px;
-}
-code {
-	font:11px Monaco, monospace;
-}
-abbr, acronym {
-  border-bottom:1px dotted #333;
-  cursor: help;
-}
-ins {
-	text-decoration:none;
-}
-sup,
-sub {
-	height: 0;
-	line-height: 1;
-	vertical-align: baseline;
-	position: relative;
-	
-}
-sup {
-	bottom: 1ex;
-}
-sub {
-	top: .5ex;
-}
-
-/* Pullquotes
--------------------------------------------------------------- */
-
-blockquote.left {
-	float: left;
-	margin-left:0;
-	margin-right:20px;
-	text-align: right;
-	width: 33%;
-}
-blockquote.right {
-	float: right;
-	margin-left:20px;
-	margin-right:0;
-	text-align: left;
-	width: 33%;
-}
-
-/*
-
-Adapt the following for use in your Child Themes when using
-different font-sizes and line-heights
-
-body, input, textarea {
-    font: --px Arial,sans-serif;
-    line-height:--px;
-}
-p, ul, ol, dd, pre {
-    margin-bottom:--px;
-}
-pre, code {
-	font:--px Monaco, monospace;
-	line-height:--px;
-}
-
-All other styles can be overridden--or ignored!--in Child Theme stylesheets
-
-*/
-
-
-/* END TYPOGRAPHY CSS */
-
-body { font-family: Georgia, Times, "Times New Roman", serif; font-size:18px; color:#333}
-a { font-style:italic; }
-#meta-head { background-color: #202020; height:25px; color: white; font-size: 12px; padding: 4px 44px 0px;border-bottom: #aaa;}
-#meta-head p { display: inline; }
-
-h2 { text-transform: lowercase; font-style: italic; font-size: 30px;}
-h3 { font-size: 24px }
-
-#wrapper { width: 1080px }
-
-#main { padding: 50px 44px;width:670px;line-height: 26px; float:left}
-
-#main a, a:visited { background: #ffa; padding:2px; color: #333; text-decoration: none; }
-#sidebar a, a:visited {  color: #333; text-decoration: none; }
-#sidebar a:hover { color: gray }
-#main a:hover {background: #333; color: #fff; }
-
-#sidebar { width: 310px;float:right; margin-top:108px; }
-
-#sidebar h1 { border-bottom:thin solid black; padding: 0 0 10px 4px }
-
-#sidebar ul.simple-list { list-style-type:none; font-size:14px; padding-left:5px; margin-left:0px; width:150px; margin-top:10px }
-
-#sidebar ul.simple-list.social { padding-left:20px; width:110px }
-
-#contact a, #contact a:visited{ color: #ccc; font-style: italic; background: none;}
-
-#contact a:hover { background-color: whiteSmoke }
-
-#meta-options { height:25px; color: white; font-size: 12px; height:25; position: absolute; padding: 0px 44px; }
-#meta-options ul { margin:0px; }
-#meta-options ul li { list-style: none; display: inline; cursor: pointer; background-color: #202020; padding: 5px 10px 5px 10px; }
-#meta-options ul li a { display:inline;color: white; text-decoration: none; }
-#meta-options ul li a:hover { text-decoration: none; }
-
-
-#clock { display:inline-block; }
-
+#clock {
+  display: inline-block; }
 
 /* SOME CLASSES */
+.upper {
+  text-transform: uppercase; }
 
-.upper { text-transform: uppercase; }
-.post-title { margin: 50px 0 25px }
-.ital { font-style: italic }
-.left { float: left }
-.right { float: right }
+.post-title {
+  margin: 50px 0 25px; }
+
+.ital {
+  font-style: italic; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }

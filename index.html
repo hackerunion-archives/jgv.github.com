@@ -4,21 +4,8 @@ title: One Post At A Time
 ---
 
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:5 %}
   <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.content }}
   <em>Posted on {{ post.date | date_to_long_string }}.</em>
   <div style="clear:both;"></div>
-  {% if post.previous %}
-  <span class="page-nav-item">
-    <a rel="prev" href="{{ post.previous.url }}/" title="View {{ post.previous.title }}" >&#8592; view previous post</a>
-  </span>
-  {% endif %}
-  {% if post.next %}
-  <span class="page-nav-item">
-    <a rel="next" href="{{ post.next.url }}/" 
-       title="View {{ post.next.title }}"
-       >view next post &#8594;</a>
-  </span>
-  {% endif %}
 {% endfor %}
