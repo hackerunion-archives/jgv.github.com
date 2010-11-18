@@ -1,8 +1,0 @@
----
-layout: post
-title: First Post
----
-
-h2.{{post.title}}
-
-p.This will be the best blog ever.
