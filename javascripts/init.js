@@ -32,6 +32,6 @@ function returnHome(){
 //    if ( re !== null ) {
 //	window.location = 'http://jonathanvingiano.com';
 //    } else {
-	window.location = 'http://localhost:4000';
+	window.location = 'http://jonathanvingiano.com';
 //    }
 };
