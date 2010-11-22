@@ -13,20 +13,14 @@
  
     
     <div id="meta-head" onclick="returnHome()"> 
-      <span id="clock">&#160;</span>|<p>The Website of Jonathan Vingiano</p> 
+      <span id="clock">&#160;</span>|<p>  The Website of Jonathan Vingiano</p> 
     </div> 
     <div id="wrapper" class="clearfix"> 
       <div id="main"> 
 	
 	<p>Hi. My name is Jonathan Vingiano. I live in New York City. I am the front end engineer at <a href="http://hyperpublic.com">Hyper Public</a>. In my free time I work on <a 
 href="http://oak.fm">Oak fm</a>.</p> 
- 
-        {% for post in site.posts %}	
-	<h2 class="post-title"><a href="{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h2> 
-	<p class="date-slug">{{ post.date | date_to_long_string }}</p> 
-	
-	{% endfor %}
- 
+
       </div> 
       <div id="sidebar"> 
 	<h1 class="upper"></h1> 
