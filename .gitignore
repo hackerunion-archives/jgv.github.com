@@ -5,3 +5,4 @@ _drafts
 _site
 stylesheets/.sass-cache/
 .sass-cache/
+.DS_Store
