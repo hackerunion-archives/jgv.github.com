@@ -20,8 +20,12 @@ h2 {
 h2.post-title {
   clear: left;
   float: left;
-  padding: 4px;
-  margin: 0 0 10px; }
+  margin: 0 0 20px;
+  background: #ffffaa;
+  padding: 4px; }
+  h2.post-title a {
+    padding: 4px;
+    background: transparent!important; }
 
 h3 {
   font-size: 24px; }
