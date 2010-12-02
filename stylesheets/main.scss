@@ -33,13 +33,16 @@ h2 {
 h2.post-title {
   clear: left;
   float: left;
-  margin: 0 0 20px; 
+  margin: 0 0 10px; 
   background: $highlight;
   padding: 4px;
+  &:hover {
+    background: #333;
+  }
   a {
     padding: 4px;    
     background: transparent!important;
-}
+  }
 }
 
 h3 { 

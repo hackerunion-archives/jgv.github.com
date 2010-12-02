@@ -20,9 +20,11 @@ h2 {
 h2.post-title {
   clear: left;
   float: left;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   background: #ffffaa;
   padding: 4px; }
+  h2.post-title:hover {
+    background: #333; }
   h2.post-title a {
     padding: 4px;
     background: transparent!important; }
