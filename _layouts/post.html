@@ -4,7 +4,7 @@ layout: default
 
 <div id="post-content">
 {{ content }}
-</div>
+
 
   {% if post.previous %}
   <span class="page-nav-item">
@@ -13,10 +13,10 @@ layout: default
   {% endif %}
   {% if post.next %}
   <span class="page-nav-item">
-    <a rel="next" href="{{ post.next.url }}/" 
-       title="View {{ post.next.title }}"
-       >view next post &#8594;</a>
+    <a rel="next" href="{{ post.next.url }}/" title="View {{ post.next.title }}">view next post &#8594;</a>
   </span>
   {% endif %}
 
-<a href="/"><h2 class="hightlight left">back</h2></a>
+<a href="/"><h2 class="back hightlight left">back</h2></a>
+
+</div>

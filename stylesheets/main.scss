@@ -59,7 +59,7 @@ h3 {
   color: white; 
   font-size: 12px; 
   padding: 4px 44px 0px;
-  border-bottom: #aaa;
+  border-bottom: thin solid #aaa;
   cursor: pointer!important;
   p { 
     display: inline; 
@@ -82,6 +82,10 @@ h3 {
     background: #333; 
     color: #fff; 
   }
+}
+
+#disqus_thread {
+  padding-top: 50px;
 }
 
 #main-post { 
