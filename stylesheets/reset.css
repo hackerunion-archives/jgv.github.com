@@ -208,3 +208,27 @@ All other styles can be overridden--or ignored!--in Child Theme stylesheets
 
 
 /* END TYPOGRAPHY CSS */
+
+
+/* CLEARFIX 
+
+clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+} */

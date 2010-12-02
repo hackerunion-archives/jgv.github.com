@@ -1,0 +1,15 @@
+---
+layout: post
+title: Credit Synthesis
+category: work
+year: 2009
+---
+
+{{ page.title }}
+{{ page.year }}
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/Credit-Synthesis.jpg!
+
+p. A sculpture which interprets data stored magnetically (credit cards, student IDs, etc) and translates it to a brief melody. The software was written in Processing and Arduino.
+
+<iframe src="http://player.vimeo.com/video/5072895?portrait=0" width="400" height="270" frameborder="0"></iframe>

@@ -1,0 +1,23 @@
+---
+layout: post
+title: Cell Phone Painting #1
+category: work
+year: 2009
+---
+
+{{ page.title }}
+{{ page.year }}
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/cellphone1.png!
+<br />
+!https://github.com/jgv/jgv.github.com/raw/master/_images/cellphone2.png!
+<br />
+!https://github.com/jgv/jgv.github.com/raw/master/_images/cellphone3.png!
+
+p. Here's something I wrote about this in 2009:
+
+p. For Cell Phone Painting #1 , I established a website which collected the cell phone numbers of willing participants. On a specified date and time, users text messaged painting instructions which were then executed by a painter. The users had never met one another and were not aware of the content of the other messages. Essentially, I coordinated a networked performance of anonymous individuals.
+
+p. The final product, a documentation of the text messages, exists in three forms: a list of directions, a video loop of the creation of the painting, and the painting itself, which acts as an indexical reference to the directions. In the list of directions, you’ll notice how the constraints of cell phone technology distort language, offering evidence of a lingua franca not just facilitated but created by our essential communicative devices. In the painting, the painter’s interpretation from text to image is clearly displayed. Since instructions, interpretation, and documentation are exhibited using different mediums, the essence of each medium is suggested.
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/cellphone-axiom.jpeg!

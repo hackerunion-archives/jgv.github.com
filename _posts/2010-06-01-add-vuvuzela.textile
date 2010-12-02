@@ -1,0 +1,15 @@
+---
+layout: post
+title: Add Vuvuzela
+category: work
+year: 2010
+---
+
+{{ page.title }}
+{{ page.year }}
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/vuvu.jpeg!
+
+p. When everyone was talking about the Vuvuzela at the 2010 World Cup, I obviously had to make a bookmarklet and Chrome extension in its honor.
+
+p. Zack Sears was kind enough to throw together "a website for it too":http://add-vuvuzela.com.

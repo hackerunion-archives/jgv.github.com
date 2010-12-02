@@ -1,0 +1,11 @@
+---
+layout: post
+title: System
+categories: work
+year: 2009
+---
+
+{{ page.title }}
+{{ page.year }}
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/W8KIAHO73zc?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/W8KIAHO73zc?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>

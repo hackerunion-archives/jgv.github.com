@@ -35,3 +35,10 @@ function returnHome(){
 	window.location = 'http://jonathanvingiano.com';
 //    }
 };
+
+function init() {
+    updateClock(); 
+    setInterval('updateClock()', 1000);
+}
+
+window.onload = init;

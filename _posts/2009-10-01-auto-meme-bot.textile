@@ -1,0 +1,13 @@
+---
+layout: post
+title: Auto-Meme Bot
+category: work
+year: 2009
+---
+
+{{ page.title }}
+{{ page.year }}
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/automeme.png!
+
+p. An AIM bot that invokes the "Auto-Meme":http://automeme.net API. The bot is powered by a simple Perl script and the source is on "Github":http://github.com/jgv/automemebot.

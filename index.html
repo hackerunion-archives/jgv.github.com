@@ -1,10 +1,22 @@
 ---
 layout: default
-title: Hi
+title: Jonathan Vingiano
 ---
 
-{% for post in site.posts %}  
+<div style="float:left; width: 320px;">
+<h3 class="category-title">Blog</h3>
+
+{% for post in site.categories.blog limit:5 %}  
   <h2 class="post-title"><a href="{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h2> 
   <p class="date-slug">{{ post.date | date_to_long_string }}</p> 
 {% endfor %}
-        
+</div>
+
+<div style='float:right;width:320px'>
+<h3 class="category-title">Work</h3>
+
+{% for post in site.categories.work limit:10 %}  
+  <h2 class="post-title"><a href="{{post.url}}" title="{{ post.title }}">{{ post.title }}</a></h2> 
+{% endfor %}
+
+</div>

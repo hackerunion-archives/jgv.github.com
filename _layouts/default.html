@@ -9,40 +9,62 @@
     <script type="text/javascript" src="/javascripts/init.js"></script>
   </head>
   
-  <body onload="updateClock(); setInterval('updateClock()', 1000 )">
+  <body>
 
     
     <div id="meta-head" onclick="returnHome()">
-      <span id="clock">&#160;</span><p>Jonathan Vingiano's Blog</p>
+      <span id="clock">&#160;</span><p>Hi. This is Jonathan Vingiano's website. Compiled on {{ 'site.time' | date: "%d %B %Y" }}.</p>
     </div>
     <div id="wrapper" class="clearfix">
       <div id="main">
 
         {{ content }}
-  
-      </div>
-      <div id="sidebar">
-	<h1 class="upper">{{ page.title }}</h1>
-	<ul class="simple-list left">
-	  <p class="ital">Some Friends</p>
-	  <li><a href="http://johnmichaelboling.com">John Michael Boling</a></li>
-	  <li><a href="http://jnhasty.com">Nick Hasty</a></li>
-	  <li><a href="http://zacksears.com">Zack Sears</a></li>
-	  <li><a href="http://amillionkeys.com">Ceci Moss</a></li>
-	  <li><a href="http://jordancooper.wordpress.com">Jordan Cooper</a></li>
-	  <li><a href="http://dougpetkanics.com/">Doug Petkanics</a></li>
-	  <li><a href="http://kneeon.tv/">Mike Healey & Kelley Goeller</a></li>
-	  <li><a href="http://duncanmalashock.com">Duncan Malashock</a></li>
-	</ul>
 
-	<ul class="simple-list social right">
-	  <p class="ital">Other Internet</p>
-	<li><a href="http://hyperpublic.com">Hyper Public</a></li>
-	<li><a href="http://oak.fm">Oak fm</a></li>
-	<li><a href="http://twitter.com/jgv">Twitter</a></li>
-	<li><a href="http://del.icio.us/jonathanvingiano">Del.icio.us</a></li>
-	<li><a href="http://github.com/jgv">Github</a></li>
-	</ul>
+        {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_shortname = 'jvingiano'; 
+          // var disqus_identifier = 'unique_dynamic_id_1234';
+          var disqus_url = window.location;
+
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        {% endif %}
+        
+      </div>
+
+      <div id="sidebar">
+	      <h1 class="upper">{{ page.title }}</h1>
+	      <ul class="simple-list left">
+	        <p class="ital">Some Friends</p>
+	        <li><a href="http://johnmichaelboling.com">John Michael Boling</a></li>
+	        <li><a href="http://jordancooper.wordpress.com">Jordan Cooper</a></li>
+	        <li><a href="http://jnhasty.com">Nick Hasty</a></li>
+	        <li><a href="http://kneeon.tv/">Mike Healey & Kelley Goeller</a></li>
+	        <li><a href="http://duncanmalashock.com">Duncan Malashock</a></li>
+	        <li><a href="http://amillionkeys.com">Ceci Moss</a></li>
+	        <li><a href="http://dougpetkanics.com/">Doug Petkanics</a></li>
+	        <li><a href="http://zacksears.com">Zack Sears</a></li>
+	        <li><a href="http://thomasrennie.com">Thomas Rennie</a></li>
+	      </ul>
+
+	      <ul class="simple-list social right">
+	        <p class="ital">Other Internet</p>
+	        <li><a href="http://hyperpublic.com">Hyperpublic</a></li>
+	        <li><a href="http://oak.fm">Oak fm</a></li>
+	        <li><a href="http://twitter.com/jgv">Twitter</a></li>
+	        <li><a href="http://jonathanvingiano.tumblr.com">Tumblr</a></li>
+	        <li><a href="http://del.icio.us/jonathanvingiano">Del.icio.us</a></li>
+	        <li><a href="http://www.last.fm/user/jgv">Last.fm</a></li>
+	        <li><a href="http://github.com/jgv">Github</a></li>
+	        <li><a href="http://wwoorrkk.net">WWOORRKK</a></li>
+	      </ul>
       </div>
     </div>
 

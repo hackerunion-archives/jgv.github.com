@@ -1,0 +1,17 @@
+---
+layout: post
+title: Deal With It
+categories: work
+year: 2010
+---
+
+{{ page.title }}
+{{ page.year }}
+
+!https://github.com/jgv/jgv.github.com/raw/master/_images/deal-with-it-screenshot.png!
+
+
+
+p. Inspired by Jeff Crouse's "Deal With It.app":http://www.jeffcrouse.info/bs/deal-with-it-app/, I made this bookmarklet celebrating the "popular meme"http://knowyourmeme.com/memes/deal-with-it. You can get it "here":http://jonathanvingiano.com/deal-with-it or get it by dragging the link below to your bookmark bar.
+
+<a href="javascript:void((function(){var%20hsb=document.createElement('script');hsb.setAttribute('src','https://github.com/jgv/deal-with-it/raw/master/script.js');hsb.setAttribute('type','text/javascript');document.getElementsByTagName('head')[0].appendChild(hsb);})());">DEAL WITH IT</a>

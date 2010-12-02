@@ -28,6 +28,9 @@ h3 {
   h3 .title {
     background: #ffffaa; }
 
+.category-title {
+  margin-bottom: 15px; }
+
 #wrapper {
   width: 1080px;
   padding-top: 100px; }
@@ -125,3 +128,6 @@ h3 {
 
 .hightlight {
   background: #ffffaa; }
+
+.back {
+  padding: 4px; }

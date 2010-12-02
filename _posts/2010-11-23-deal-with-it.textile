@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Deal With It
+categories: blog
+year: 2010
+comments: true
 ---
 
 {{ page.title }}
+{{ page.date | date_to_long_string }}
 
 !https://github.com/jgv/jgv.github.com/raw/master/_images/deal-with-it-screenshot.png!
 
