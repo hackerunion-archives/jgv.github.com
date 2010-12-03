@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: Bit.ly Web Ring
@@ -10,6 +11,6 @@ year: 2010
 
 !https://github.com/jgv/jgv.github.com/raw/master/_images/bitly-web-ring.png!
 
-p. I made this with Jeff Garneau at the Bit.ly Hackabit in November 2010. The idea was concieved of with help from Bre Pettis of Makerbot. Surfing other peoples links is a really fun way to explore the web.
+p. I made this with Jeff Garneau at the Bit.ly Hackabit in November 2010. The idea was concieved of with help from Bre Pettis of Makerbot. Surfing other peoples links is a really fun way to explore the web. So much fun that it got an "Honorable Mention from Bit.ly":http://blog.bit.ly/post/2071681766/announcing-the-winners-of-the-bit-ly-api-contest!
 
 p. Check out the Bit.ly Web Ring "here":http://bitlywebring.com.

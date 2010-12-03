@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Credit Synthesis
+title: Credit Card Synthesis
 category: work
 year: 2009
 ---
