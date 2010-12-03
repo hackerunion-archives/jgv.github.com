@@ -8,7 +8,6 @@ year: 2010
 {{ page.title }}
 {{ page.year }}
 
-!https://github.com/jgv/jgv.github.com/raw/master/_images/dream1.jpeg!
-!https://github.com/jgv/jgv.github.com/raw/master/_images/dream2.jpeg!
+!https://github.com/jgv/jgv.github.com/raw/master/_images/dream1.jpeg!!https://github.com/jgv/jgv.github.com/raw/master/_images/dream2.jpeg!
 
 p. In collaboration with Jeff Garneau, I created a digital Dream Machine to celebrate the closing of the show at the "New Museum":http://www.newmuseum.org/exhibitions/422. It was featured as an <em>Art Pick</em> by the "New Yorker":http://www.newyorker.com/online/blogs/goingson/2010/10/quick-pick-8.html and featured by covered by "Rhizome":http://rhizome.org/editorial/3804, "Boing Boing":http://www.boingboing.net/2010/10/05/gysin-dream-machine.html, and the "L Magazine":http://www.thelmagazine.com/TheMeasure/archives/2010/10/05/brion-gysins-dream-machine-lights-up-your-iphone.
