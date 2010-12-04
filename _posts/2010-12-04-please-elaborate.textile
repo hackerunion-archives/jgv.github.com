@@ -1,0 +1,14 @@
+---
+layout: post
+title: Please Elaborate
+category: blog
+year: 2010
+comments: true
+---
+
+{{ page.title }}
+{{ page.date | date_to_long_string }}
+
+p. I just published an Alpha version of a Chrome extension that I thought up at the Bit.ly hackabit where the "webring":http://jonathanvingiano.com/work/bit.ly-web-ring was made. It's available on my "Github":http://github.com/jgv/please-elaborate and anyone should feel free to fork away. The idea of the project was to provide a way to avoid digital bait and switch (or rickrolling) propagated by the use of url shorteners. It's still _very_ much in its first iteration although I wanted to put it out there to (hopefully) get some actual users. Enjoy!
+
+p. P.S. please send any feedback to "jgv (at) jonathanvingiano.com":mailto:jgv@jonathanvingiano.com.  
