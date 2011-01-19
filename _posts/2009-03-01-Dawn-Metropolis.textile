@@ -1,0 +1,14 @@
+---
+layout: post
+title: Dawn Metropolis
+category: work
+year: 2009
+---
+
+
+{{ page.title }}
+{{ page.year }}
+
+p. "Dawn Metropolis":http://dawnmetropolis.com is an award winning series of animations to accompany each song in the debut LP from the chiptune all-stars, "Anamanaguchi":http://anamanaguchi.com. My role in the project was the lead animator. Using After Effects and Photoshop I compiled and animated the album in its entirety. This was truly a work of collaboration and could not have been possible without Dave Mauro, Paris Treantafeles and LOLZ LLC.
+
+<object width="425" height="350"><param name="movie" value="http://www.dawnmetropolis.com/_swf/embed.swf"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.dawnmetropolis.com/_swf/embed.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="350"></object>
