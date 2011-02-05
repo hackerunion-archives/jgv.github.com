@@ -27,15 +27,6 @@ function updateClock (){
 	
 };
 
-function returnHome(){
-//    var re = /(http[s]?:\/\/localhost:4000\/[a-zA-Z0-9-\.]/gi;
-//    if ( re !== null ) {
-//	window.location = 'http://jonathanvingiano.com';
-//    } else {
-	window.location = 'http://jonathanvingiano.com';
-//    }
-};
-
 function init() {
     updateClock(); 
     setInterval('updateClock()', 1000);
