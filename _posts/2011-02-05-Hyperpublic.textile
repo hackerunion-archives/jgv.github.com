@@ -1,0 +1,14 @@
+---
+layout: post
+titel: Hyperpublic
+category: blog
+year: 2011
+comments: true
+---
+
+{{ page.title }}
+{{ page.date | date_to_long_string }}
+
+p. Last Tuesday "Hyperpublic":http://hyperpublic.com was released to the public. I've been working on Hyperpublic as the Front-end Engineer for the last few months and I'm very excited to see it in the wild. It seems to have been recieved very well by "TechCrunch":http://techcrunch.com/2011/02/01/hyperpublic/ and the "New York Observer":http://www.observer.com/2011/tech/hyperpublic-wants-tag-world-around-you.
+
+Hyperpublic is an open database for people, places, and things. The webapp is just the first step so stay tuned for big updates to come.
