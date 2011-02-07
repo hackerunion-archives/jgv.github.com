@@ -23,7 +23,7 @@ function updateClock (){
 	var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 	
 	// Update the time display
-	document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+	document.getElementById("clock").firstChild.nodeValUe = currentTimeString;
 	
 };
 
