@@ -9,7 +9,7 @@ function returnHome(){
 
 function init() {
 
-    updateClock = function(){
+    var updateClock = (function(){
 
         var currentTime = new Date();
         
@@ -36,7 +36,7 @@ function init() {
 	      // Update the time display
 	      document.getElementById("clock").firstChild.nodeValue = currentTimeString;
 	      
-    };
+    })();
 
     updateClock(); 
     setInterval('updateClock()', 1000);
