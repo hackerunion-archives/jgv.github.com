@@ -1,6 +1,6 @@
 ---
 layout: post
-titel: Hyperpublic
+title: Hyperpublic
 category: blog
 year: 2011
 comments: true
