@@ -1,6 +1,6 @@
 window.onload = function () {
     
-    updateClock = function(){
+    updateClock = function (){
 
         var currentTime = new Date();        
 	      var currentHours = currentTime.getHours();
@@ -29,6 +29,6 @@ window.onload = function () {
     }
 
     updateClock();
-    setInterval('updateClock()', 1000);
+    setInterval(updateClock, 1000);
     
 }
