@@ -1,0 +1,16 @@
+---
+layout: post
+title: Blind Mist
+category: work
+year: 2011
+---
+
+
+{{ page.title }}
+{{ page.year }}
+
+p. Blind Mist is a project I worked on with "Brad Troemel":http://bradtroemel.com that debuted at 319 Scholes in "Read/Write":http://jstchillin.org, curated by JstChillin. 
+
+p. Blind Mist provides a constantly revolving display of images organized at random. All images function as links to their place of origin and will eventually expire from public rotation. To be included in the rotation of images, add your own URLs to Blind Mist by entering them in the input above. The more URLs you add, the greater the chance your images will have to be seen.
+
+"Visit Blind Mist":http://blindmist.com
