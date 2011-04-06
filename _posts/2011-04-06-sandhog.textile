@@ -9,4 +9,4 @@ comments: true
 {{ page.title }}
 {{ page.date | date_to_long_string }}
 
-p. I just released a beta/alpha/early version of a PHP library called "Sandhog" that abstracts the MTA's API. The idea is ease of use for developers who don't want to deal with unruly XML. It uses the MTA's Service Status feed, which is updated every 60 seconds. Look for a Ruby Gem next week that provides a similar abstraction of the MTA's API. Check out "Sandhog on Github":https://github.com/jgv/sandhog.
+p. I just released a beta/early version of a PHP library called "Sandhog" that abstracts the MTA's API. The idea is ease of use for developers who don't want to deal with unruly XML. It uses the MTA's Service Status feed, which is updated every 60 seconds. Look for a Ruby Gem next week that provides a similar abstraction of the MTA's API. Check out "Sandhog on Github":https://github.com/jgv/sandhog.
