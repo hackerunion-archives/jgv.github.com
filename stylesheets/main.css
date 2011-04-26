@@ -1,142 +1,59 @@
 @import url(reset.css);
-body {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 18px;
-  color: #333; }
+body { font-family: Georgia, Times, "Times New Roman", serif; font-size: 18px; color: #333; }
 
-a {
-  font-style: italic; }
+a { font-style: italic; }
 
-p.date-slug {
-  font-style: italic;
-  margin: 5px 0 20px;
-  clear: both; }
+p.date-slug { font-style: italic; margin: 5px 0 20px; clear: both; }
 
-h2 {
-  text-transform: lowercase;
-  font-style: italic;
-  font-size: 30px; }
+h2 { text-transform: lowercase; font-style: italic; font-size: 30px; }
 
-h2.post-title {
-  clear: left;
-  float: left;
-  margin: 0 0 10px;
-  background: #ffffaa;
-  padding: 4px; }
-  h2.post-title:hover {
-    background: #333; }
-  h2.post-title a {
-    padding: 4px;
-    background: transparent!important; }
+.post-title { clear: left; float: left; margin: 0 0 10px; background: #ffffaa; padding: 4px; }
+.post-title:hover { background: #333; }
+.post-title a { padding: 4px; background: transparent!important; }
 
-h3 {
-  font-size: 24px; }
-  h3 .title {
-    background: #ffffaa; }
+h3 { font-size: 24px; }
+h3 .title { background: #ffffaa; }
 
-.category-title {
-  margin-bottom: 15px; }
+.category-title { margin-bottom: 15px; }
 
-#wrapper {
-  width: 1080px;
-  padding-top: 100px; }
+#wrapper { width: 1080px; padding-top: 100px; }
 
-#meta-head {
-  background: #202020;
-  height: 25px;
-  color: white;
-  font-size: 12px;
-  padding: 4px 44px 0px;
-  border-bottom: thin solid #aaa;
-  cursor: pointer!important; }
-  #meta-head p {
-    display: inline;
-    cursor: pointer!important; }
+#meta-head { background: #202020; height: 25px; color: white; font-size: 12px; padding: 4px 44px 0px; border-bottom: thin solid #aaa; cursor: pointer!important; }
+#meta-head p { display: inline; cursor: pointer!important; }
 
-#main {
-  padding: 0 44px 50px;
-  width: 670px;
-  line-height: 26px;
-  float: left; }
-  #main a, #main a:visited {
-    background: #ffffaa;
-    padding: 2px;
-    color: #333;
-    text-decoration: none; }
-  #main a:hover {
-    background: #333;
-    color: #fff; }
+#main { padding: 0 44px 50px; width: 670px; line-height: 26px; float: left; }
+#main a, #main a:visited { background: #ffffaa; padding: 2px; color: #333; text-decoration: none; }
+#main a:hover { background: #333; color: #fff; }
 
-#disqus_thread {
-  padding-top: 50px; }
+#disqus_thread { padding-top: 50px; }
 
-#main-post {
-  padding: 0 44px 50px;
-  width: 670px;
-  line-height: 26px;
-  float: left;
-  margin-top: -8px; }
-  #main-post a, #main-post a:visited {
-    background: #ffffaa;
-    padding: 2px;
-    color: #333;
-    text-decoration: none; }
-  #main-post a:hover {
-    background: #333;
-    color: #fff; }
+#main-post { padding: 0 44px 50px; width: 670px; line-height: 26px; float: left; margin-top: -8px; }
+#main-post a, #main-post a:visited { background: #ffffaa; padding: 2px; color: #333; text-decoration: none; }
+#main-post a:hover { background: #333; color: #fff; }
 
-#post-content {
-  margin: -8px 0 20px; }
+#post-content { margin: -8px 0 20px; }
 
-#sidebar {
-  width: 310px;
-  float: right; }
-  #sidebar h1 {
-    border-bottom: thin solid black;
-    padding: 3px 0 10px 4px; }
-  #sidebar a, #sidebar a:visited {
-    color: #333;
-    text-decoration: none; }
-  #sidebar a:hover {
-    color: gray; }
-  #sidebar ul.simple-list {
-    list-style-type: none;
-    font-size: 14px;
-    padding-left: 5px;
-    margin-left: 0px;
-    width: 150px;
-    margin-top: 10px; }
-  #sidebar ul.simple-list.social {
-    padding-left: 20px;
-    width: 110px; }
+#sidebar { width: 310px; float: right; }
+#sidebar h1 { border-bottom: thin solid black; padding: 3px 0 10px 4px; }
+#sidebar a, #sidebar a:visited { color: #333; text-decoration: none; }
+#sidebar a:hover { color: gray; }
+#sidebar ul.simple-list { list-style-type: none; font-size: 14px; padding-left: 5px; margin-left: 0px; width: 150px; margin-top: 10px; }
+#sidebar ul.simple-list.social { padding-left: 20px; width: 110px; }
 
-#contact a, #contact a:visited {
-  color: #ccc;
-  font-style: italic;
-  background: transparent; }
-#contact a:hover {
-  background: whiteSmoke; }
+#contact a, #contact a:visited { color: #ccc; font-style: italic; background: transparent; }
+#contact a:hover { background: whiteSmoke; }
 
-#clock {
-  display: inline-block;
-  min-width: 75px;
-  cursor: pointer!important; }
+#clock { display: inline-block; min-width: 75px; cursor: pointer!important; }
 
 /* SOME CLASSES */
-.upper {
-  text-transform: uppercase; }
+.upper { text-transform: uppercase; }
 
-.ital {
-  font-style: italic; }
+.ital { font-style: italic; }
 
-.left {
-  float: left; }
+.left { float: left; }
 
-.right {
-  float: right; }
+.right { float: right; }
 
-.hightlight {
-  background: #ffffaa; }
+.hightlight { background: #ffffaa; }
 
-.back {
-  padding: 4px; }
+.back { padding: 4px; }
